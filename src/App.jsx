@@ -1,6 +1,4 @@
 import About from "./components/about/About";
-import Cover from "./components/cover/Cover";
-import Navbar from "./components/navbar/Navbar";
 import { useEffect } from "react";
 import { useState } from "react";
 import Skills from "./components/skills/Skills";
@@ -20,9 +18,7 @@ function App() {
   }, [scrollHeight]);
 
   return (
-    <div className="App">
-      <Navbar isScrolling={scrollHeight} />
-      <Cover />
+    <div>
       <section id="about">
         <About />
       </section>
