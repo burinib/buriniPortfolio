@@ -33,9 +33,6 @@ function App() {
       <section id="skills">
         <Skills />
       </section>
-      <section id="info">
-        <Info />
-      </section>
       <section id="contact">
         <Footer />
       </section>
