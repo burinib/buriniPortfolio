@@ -1,22 +1,9 @@
 import About from "./components/about/About";
-import { useEffect } from "react";
-import { useState } from "react";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 import Slider from "./components/slider/Slider";
 
 function App() {
-  const [scrollHeight, setScrollHeight] = useState(0);
-
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollHeight(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, [scrollHeight]);
-
   return (
     <div>
       <section id="about">
