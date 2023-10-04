@@ -95,7 +95,7 @@ const Contact = () => {
         >
           <div className="container_2_whatsapp">
             <img src={whatsapp} alt="" style={{ width: "36px" }} />
-            <h1>Send watsap</h1>
+            <h1>Send whatsApp</h1>
           </div>
         </a>
         <a
@@ -106,7 +106,7 @@ const Contact = () => {
         >
           <div className="container_2_whatsapp">
             <img src={linkedin} alt="" style={{ width: "36px" }} />
-            <h1>visit my linkendin</h1>
+            <h1>visit my linkedin</h1>
           </div>
         </a>
         <a
