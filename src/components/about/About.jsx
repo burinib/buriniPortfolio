@@ -1,5 +1,5 @@
 import imgPersonal from "../../media/imgPersonal.jpg";
-import descarga from "../../media/CvBuriniBraian.pdf.pdf";
+import descarga from "../../media/CV - Burini Braian.pdf";
 
 import "./About.css";
 
