@@ -1,0 +1,37 @@
+/* Skills.css */
+.skillContainer {
+  display: flex;
+  color: #af9c9c;
+  width: 100%;
+  background-color: #222831;
+  align-items: center;
+  padding: 100px;
+  height: 100vh;
+}
+
+.skillSubContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.iconContainer {
+  width: 50%;
+}
+
+.skillIconContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 80%;
+  padding-top: 5px;
+  padding-left: 5%;
+}
+
+.TextContainer {
+  width: 50%;
+  padding-top: 25px;
+}
+.TextContainer h2 {
+  font-size: 20px;
+}

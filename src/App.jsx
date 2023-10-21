@@ -6,6 +6,7 @@ import { useState } from "react";
 import Info from "./components/info/Info";
 import Footer from "./components/footer/Footer";
 import Slider from "./components/slider/Slider";
+import Skills from "./components/skills/Skills";
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -28,6 +29,9 @@ function App() {
       </section>
       <section id="proyects">
         <Slider />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
 
       <section id="info">
