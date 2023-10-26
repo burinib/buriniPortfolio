@@ -3,8 +3,8 @@
   background-color: #222831;
   width: 100%;
   justify-content: center;
-  height: 90vh;
-}
+  height: 100vh;
+  padding-top: 13vh;
 
 .ContainerProjects {
   display: flex;
