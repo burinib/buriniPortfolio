@@ -24,10 +24,10 @@ const Info = () => {
 
   return (
     <div className="info-container">
+      <h1 className="titleCertificado">CERTIFICATES</h1>
       <div className="info">
         {certificados.map((certificado, index) => (
           <div key={index} className="certificado">
-            <h1 className="titleCertificado"></h1>
             <a href={certificado.url} target="_blank" rel="noopener noreferrer">
               <img
                 className="desarrolloWeb"
@@ -41,4 +41,5 @@ const Info = () => {
     </div>
   );
 };
+
 export default Info;
