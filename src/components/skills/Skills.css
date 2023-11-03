@@ -35,3 +35,19 @@
 .TextContainer h2 {
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .skillContainer {
+  }
+  .TextContainer {
+    display: none; /* Oculta el texto en dispositivos móviles */
+  }
+  .iconContainer {
+    width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+  }
+  .skillIconContainer {
+    padding: 10px;
+    justify-content: center; /* Centra los iconos en dispositivos móviles */
+    width: 100%;
+  }
+}

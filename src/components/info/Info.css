@@ -21,13 +21,20 @@
   border-radius: 8px;
   margin-left: 10%;
 }
-
 @media only screen and (max-width: 768px) {
-  .desarrolloWeb {
-    width: 70%;
-    border-radius: 8px;
-    margin-left: 10%; /* Mantén el mismo margen en lugar de 15% */
+  .info {
+    flex-direction: column; /* Cambia la dirección a columna en dispositivos móviles */
+    align-items: center;
+    text-align: center; /* Añade alineación de texto al centro */
   }
+
+  .desarrolloWeb {
+    width: 55%;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    /* Puedes mantener otros estilos específicos para dispositivos móviles aquí */
+  }
+
   .titleCertificado {
     font-size: 30px;
   }
