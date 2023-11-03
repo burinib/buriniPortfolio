@@ -24,7 +24,6 @@ const Info = () => {
 
   return (
     <div className="info-container">
-      <h1 className="titleCertificado">CERTIFICATES</h1>
       <div className="info">
         {certificados.map((certificado, index) => (
           <div key={index} className="certificado">

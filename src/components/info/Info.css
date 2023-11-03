@@ -1,39 +1,32 @@
 .info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
   background-color: #af9c9c;
   background-color: #222831;
   color: black;
   margin-bottom: 100vh;
-  align-items: center;
 }
 
 .info {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .desarrolloWeb {
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
   border-radius: 8px;
-}
-
-.titleCertificado {
-  display: flex;
-  justify-content: center;
-  color: #af9c9c;
-  padding: 50px;
-  font-size: 40px;
+  margin-left: 10%;
 }
 
 @media only screen and (max-width: 768px) {
-  .info {
-    flex-direction: column;
-  }
   .desarrolloWeb {
     width: 70%;
     border-radius: 8px;
-    margin-left: 15%;
+    margin-left: 10%; /* Mantén el mismo margen en lugar de 15% */
   }
   .titleCertificado {
     font-size: 30px;
