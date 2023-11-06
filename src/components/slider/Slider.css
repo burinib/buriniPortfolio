@@ -86,7 +86,7 @@
     justify-content: center;
   }
   .slide_tittle {
-    display: none;
+    align-items: center;
   }
 
   .prev-button,

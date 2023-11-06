@@ -9,22 +9,22 @@ import { useState } from "react";
 const Slider = () => {
   const projects = [
     {
-      title: "E-commerce <Typescript/>",
+      title: "E-commerce ",
       image: audio,
       link: "https://ecommerce-audio-prc5.vercel.app/",
     },
     {
-      title: "Outfit one <React/>",
+      title: "Outfit one ",
       image: tienda,
       link: "https://burinib.github.io/react-ecommerce/",
     },
     {
-      title: "Outfit two <Javascript/>",
+      title: "Outfit two ",
       image: tienda1,
       link: "https://burinib.github.io/proyecto-bahia/",
     },
     {
-      title: "My portfolio <React/>",
+      title: "My portfolio",
       image: portfolio,
       link: "https://burinib-cv.vercel.app/",
     },
