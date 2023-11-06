@@ -63,12 +63,11 @@
   }
   .about-desc {
     width: 100%;
-    padding: 20px; /* Ajusta el padding */
     text-align: center; /* Alinea el texto al centro */
   }
   .about-img {
     width: 80%;
-    margin: 20px 0; /* Ajusta el margen superior e inferior */
+    margin-top: 30px;
   }
   .about-img > img {
     width: 100%;
