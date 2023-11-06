@@ -52,27 +52,23 @@
   min-width: fit-content;
 }
 
+/* En tu archivo CSS */
 @media only screen and (max-width: 844px) {
   .about-container {
-    padding: 0;
     height: auto;
-    width: 100%;
   }
   .about-container2 {
-    display: flex !important;
+    display: flex;
     flex-direction: column-reverse;
-    align-items: center; /* Centra los elementos verticalmente */
   }
   .about-desc {
     width: 100%;
-    margin: 0 auto;
-    padding: 0px 10px; /* Ajusta el padding */
+    padding: 20px; /* Ajusta el padding */
     text-align: center; /* Alinea el texto al centro */
   }
   .about-img {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
+    width: 80%;
+    margin: 20px 0; /* Ajusta el margen superior e inferior */
   }
   .about-img > img {
     width: 100%;
