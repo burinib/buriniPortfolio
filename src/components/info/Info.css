@@ -4,7 +4,6 @@
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #af9c9c;
   background-color: #222831;
   color: black;
   margin-bottom: 100vh;
@@ -12,27 +11,27 @@
 
 .info {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .desarrolloWeb {
   width: 70%;
   border-radius: 8px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 844px) {
   .info {
     flex-direction: column; /* Cambia la dirección a columna en dispositivos móviles */
     align-items: center;
-    text-align: center; /* Añade alineación de texto al centro */
+  }
+
+  .certificado {
+    margin: 0 0 15px 0; /* Ajusta el margen para centrar verticalmente y agrega espacio entre las imágenes */
   }
 
   .desarrolloWeb {
-    width: 55%;
+    width: 70%; /* Centra la imagen horizontalmente */
     border-radius: 8px;
-    padding-bottom: 15px;
-    /* Puedes mantener otros estilos específicos para dispositivos móviles aquí */
   }
 
   .titleCertificado {
