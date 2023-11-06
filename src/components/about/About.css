@@ -52,7 +52,6 @@
   min-width: fit-content;
 }
 
-/* En tu archivo CSS */
 @media only screen and (max-width: 844px) {
   .about-container {
     height: auto;
@@ -66,6 +65,8 @@
   .about-desc {
     width: 100%;
     text-align: center; /* Alinea el texto al centro */
+    padding: 0 20px; /* Ajusta el espaciado izquierdo y derecho */
+    margin-left: -25px;
   }
   .about-img {
     width: 80%;
