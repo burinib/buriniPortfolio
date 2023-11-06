@@ -60,14 +60,16 @@
   .about-container2 {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center; /* Alinea el contenido verticalmente */
   }
   .about-desc {
     width: 100%;
+    padding: 20px; /* Ajusta el padding */
     text-align: center; /* Alinea el texto al centro */
   }
   .about-img {
     width: 80%;
-    margin-top: 30px;
+    margin: 20px 0; /* Ajusta el margen superior e inferior */
   }
   .about-img > img {
     width: 100%;
