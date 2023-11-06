@@ -60,11 +60,11 @@
   .about-container2 {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center; /* Alinea el contenido verticalmente */
+    width: 100%;
+    padding-top: 20px;
   }
   .about-desc {
     width: 100%;
-    padding: 20px; /* Ajusta el padding */
     text-align: center; /* Alinea el texto al centro */
   }
   .about-img {
@@ -73,5 +73,8 @@
   }
   .about-img > img {
     width: 100%;
+  }
+  .sobreMiAbout {
+    display: none !important;
   }
 }
