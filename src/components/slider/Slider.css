@@ -86,9 +86,7 @@
     justify-content: center;
   }
   .slide_tittle {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    display: none;
   }
 
   .prev-button,
